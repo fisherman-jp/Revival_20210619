@@ -1,25 +1,177 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mypage-style.css">
+    <title>My Page</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Bootstrap Javascript(jQuery含む) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </head>
 
 <body>
-<!-- Header オレンジ -->
+    <div class="row py-5 px-4">
+        <div class="col-md-5 mx-auto">
+            <!-- Profile widget -->
+            <div class="bg-white shadow rounded overflow-hidden">
+                <div class="px-4 pt-0 pb-4 cover">
+                    <div class="media align-items-end profile-head">
+                        <div class="profile mr-3"><img src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80" alt="..." width="130" class="rounded mb-2 img-thumbnail"><a href="#" class="btn btn-outline-dark btn-sm btn-block">プロフィールを編集する</a></div>
+                        <div class="media-body mb-5 text-white">
+                            <h4 class="mt-0 mb-0">田中　一郎</h4>
+                            <p class="small mb-4"> 生年月日：1950年5月20日</p>
+                            <p class="small mb-4"> 年齢：71歳</p>
+                            <p class="small mb-4"> 出身地:熊本</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-light p-4 d-flex justify-content-end text-center">
+<!--
+                </div>
 
-<!-- 写真付きプロフィール -->
+                <div class="container z-depth-1 my-5 py-5 px-4 px-lg-0"> -->
 
-<!-- 趣味 -->
+                </div>
+                <div class="py-4 px-4">
+                    <div class="d-flex align-items-center justify-content-between mb-3">
+                        <h5 class="mb-0">思い出の写真</h5><a href="#" class="btn btn-link text-muted">全部見る</a>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 mb-2 pr-lg-1"><img src="https://images.unsplash.com/photo-1469594292607-7bd90f8d3ba4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="" class="img-fluid rounded shadow-sm"></div>
+                        <div class="col-lg-6 mb-2 pl-lg-1"><img src="https://images.unsplash.com/photo-1493571716545-b559a19edd14?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="" class="img-fluid rounded shadow-sm"></div>
+                        <div class="col-lg-6 pr-lg-1 mb-2"><img src="https://images.unsplash.com/photo-1453791052107-5c843da62d97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="" class="img-fluid rounded shadow-sm"></div>
+                        <div class="col-lg-6 pl-lg-1"><img src="https://images.unsplash.com/photo-1475724017904-b712052c192a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="" class="img-fluid rounded shadow-sm"></div>
+                    </div>
+                <!-- 趣味 -->
+                <section>
+                    <div class="d-flex align-items-center justify-content-between mb-3">
+                        <h5 class="mb-0">趣味</h5>
+                    </div>
+                    <div>
+                        <div class="card" style="width: 18rem;">
+                            <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Image cap"><title>Placeholder</title><rect fill="#868e96" width="100%" height="100%"/><text fill="#dee2e6" dy=".3em" x="50%" y="50%"></text></svg>
+                            <div class="card-body">
+                              <p class="card-text">幼少期から習っているバイオリンは今も続けいている。「</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div>
+                        <div class="card" style="width: 18rem;">
+                            <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Image cap"><title>Placeholder</title><rect fill="#868e96" width="100%" height="100%"/><text fill="#dee2e6" dy=".3em" x="50%" y="50%"></text></svg>
+                            <div class="card-body">
+                              <p class="card-text">ここ2,3年は温泉にははまっている。サウナイホタイ</p>
+                            </div>
+                          </div>
+                    </div>
+                </section>
 
-<!-- 手紙 -->
+                <!-- マイベスト映画 -->
+                <section>
+                    <div class="d-flex align-items-center justify-content-between mb-3">
+                        <h5 class="mb-0">一番好きな映画</h5>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Image cap"><title>Placeholder</title><rect fill="#868e96" width="100%" height="100%"/><text fill="#dee2e6" dy=".3em" x="50%" y="50%"></text></svg>
+                        <div class="card-body">
+                          <p class="card-text">20回は見た！名作中の名作。見どころは・・・</p>
+                        </div>
+                      </div>
+                    <div>
 
-<!-- 音声 -->
+                    </div>
+                </section>
+                <!-- 子供に伝えたいこと -->
+                <section>
+                    <div class="card border-secondary mb-3" style="max-width: 18rem;">
+                        <div class="card-header">子供に伝えたいこと</div>
+                        <div class="card-body text-secondary">
+                            <h5 class="card-title"></h5>
+                            <ul>
+                            <li>人への感謝</li>
+                            <li>自信をもって生きる</li>
+                            <li>粘り強く取り組む</li>
+                            </ul>
+                    </div>
+                </section>
 
-<!-- 動画 -->
+                <!-- 仕事をするうえで心がけていたこと -->
+                <section>
+                    <div class="card border-secondary mb-3" style="max-width: 18rem;">
+                        <div class="card-header">仕事をするうえで心がけていたこと</div>
+                        <div class="card-body text-secondary">
+                          <h5 class="card-title"></h5>
+                          <p class="card-text">人は何もできない。</p>
+                    </div>
+                </section>
 
-<!-- Footer -->
+                <!-- 叶えたいことリスト -->
+                <section>
+                    <div class="card border-secondary mb-3" style="max-width: 18rem;">
+                        <div class="card-header">叶えたいことリスト</div>
+                        <div class="card-body text-secondary">
+                            <h5 class="card-title"></h5>
+                            <ul>
+                                <li>家族で温泉良好に行きたい</li>
+                                <li>娘の花嫁姿が見たい</li>
+                                <li>孫と遊園地に生きたい</li>
+                            </ul>
+                        </div>
+                </section>
+
+                <!-- 私の自分史 -->
+                    <section>
+                        <hr class="w-header my-4">
+                        <h5 class="lead text-center text-muted pt-2 mb-5">私の自分史</h5>
+
+                        <div class="row">
+                          <div class="col-lg-8 mx-auto">
+                            <ol class="timeline">
+                              <li class="timeline-element">
+                                <h5 class="font-weight-bold dark-grey-text mb-3">誕生</h5>
+                                <p class="grey-text font-small"><time datetime="2017-02-08">1950年1月</time></p>
+                                <p class="text-muted">香川で産まれる。人一倍元気な赤ん坊だったそう</p>
+                              </li>
+
+                              <li class="timeline-element">
+                                <h5 class="font-weight-bold dark-grey-text mb-3">幼少期</h5>
+                                <p class="grey-text font-small"><time datetime="2017-08-17">1952年2月</time></p>
+                                <p><img class="img-fluid z-depth-1-half rounded" src="img/child-img.jpg" alt="幼少期の写真"></p>
+                                <p class="text-muted">相撲が得意なガキ大将</p>
+                              </li>
+
+                              <li class="timeline-element">
+                                <h5 class="font-weight-bold dark-grey-text mb-3">結婚</h5>
+                                <p class="grey-text font-small"><time datetime="2018-03-26"></time>1975年6月</p>
+                                <p class="text-muted">妻恵子と結婚。25歳の時だった</p>
+                              </li>
+
+                              <li class="timeline-element">
+                                <h5 class="font-weight-bold dark-grey-text mb-3">現在</h5>
+                                <p class="grey-text font-small"><time datetime="2018-04-14">2021年6月19日</time></p>
+                                <p class="text-muted">馬子にも囲まれ幸せな日々を送っている</p>
+                              </li>
+                            </ol>
+                          </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </body>
+
+<!-- Remove the container if you want to extend the Footer to full width. -->
+<div class="container my-5">
+    <!-- Footer -->
+  <footer></footer>
+    <!-- Footer -->
+</div>
+  <!-- End of .container -->
 </html>
